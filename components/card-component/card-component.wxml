@@ -1,0 +1,4 @@
+<view class="card" bindtap="navigate">
+  <image src="{{image}}" class="card-image" mode="aspectFill"></image>
+  <text class="card-title">{{title}}</text>
+</view>

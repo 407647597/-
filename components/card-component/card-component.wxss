@@ -1,0 +1,20 @@
+.card {
+  width: 45%; /* 或者你可以用25% */
+  height: 45%; /* 或者你可以用25% */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px; /* 可以根据需要调整间距 */
+  box-sizing: border-box;
+}
+
+.card-image {
+  width: 100%;
+  height: 70%; /* 调整图片高度 */
+}
+
+.card-title {
+  padding: 5px; /* 缩小文字区域的padding */
+  font-size: 14px; /* 调整文字大小 */
+  text-align: center;
+}
