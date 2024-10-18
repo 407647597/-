@@ -1,0 +1,4 @@
+<view class="container">
+  <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">获取微信头像</button>
+  <image class="user-avatar" src="{{avatarUrl}}" wx:if="{{avatarUrl}}"></image>
+</view>

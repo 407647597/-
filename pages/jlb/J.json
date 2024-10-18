@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "card-component": "/components/card-component/card-component",
+    "fui-card": "/components/fui-card/fui-card",
+    "navigation-bar": "/components/navigation-bar/navigation-bar"
+
+  }
+}

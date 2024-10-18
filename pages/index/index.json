@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "navigation-bar": "/components/navigation-bar/navigation-bar",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-notice-bar": "@vant/weapp/notice-bar/index",
+    "van-card": "@vant/weapp/card/index"
+  },
+  "enablePullDownRefresh": true,
+  "lazyCodeLoading": "requiredComponents"
+}

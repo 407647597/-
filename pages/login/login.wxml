@@ -1,0 +1,32 @@
+<scroll-view scroll-x class="bg-black nav text-center">
+  <view class="cu-item {{index==TabCur?'text-blue cur':''}}" wx:for="{{navNames}}" wx:key bindtap="tabSelect" data-id="{{index}}">
+    {{item}}
+  </view>
+  
+</scroll-view>
+<view wx:if="{{TabCur == 0}}">
+  <view class="container">
+  
+  <image class="login-bg " src="/images/Designer.png" mode="aspectFill"></image>
+  <view class="login-box">
+    <view class="title">用户登入</view>
+    <input class="input" placeholder="账号/学号" bindinput="inputUsername" />
+    <input class="input" placeholder="密码"  bindinput="inputPassword" password="true" />
+    <button class="login-btn" bind:tap="onLogin">登录</button>
+  </view>
+</view>
+
+</view>
+
+<view wx:if="{{TabCur == 1}}">
+ 
+  <view class="container">
+    <image class="login-bg " src="/images/Designer.png" mode="aspectFill"></image>
+    <view class="login-box">
+      <view class="title">管理员登入</view>
+      <input class="input" type="text" placeholder="管理员用户名" bindinput="inputAdminUsername"/>
+      <input class="input" type="password" placeholder="管理员密码" bindinput="inputAdminPassword"/>
+      <button class="btn" bindtap="adminLogin">管理员登录</button>
+    </view>
+  </view>
+</view>

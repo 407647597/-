@@ -1,0 +1,31 @@
+<scroll-view style="height: 100vh;" scroll-y>
+  <van-notice-bar mode="closeable" text="{{notice}}" />
+
+  <view style="margin-top:50px; font-size: large; font-weight: 1000; text-align:center;">个人信息</view>
+
+  <scroll-view style="height: 300px;" scroll-y>
+    <view class="table">
+      <!-- 表头 -->
+     
+      <!-- 表格内容 -->
+      <view class="tr">
+        <view class="td">身高</view>
+        <view class="td">{{height}} cm</view>
+      </view>
+      <view class="tr">
+        <view class="td">体重</view>
+        <view class="td">{{weight}} kg</view>
+      </view>
+      <view class="tr">
+        <view class="td">肺活量</view>
+        <view class="td">{{vitalcapacity}} ml</view>
+      </view>
+      <view class="tr">
+        <view class="td">体脂率</view>
+        <view class="td">{{rate}} %</view>
+      </view>
+    </view>
+  </scroll-view>
+
+
+</scroll-view>

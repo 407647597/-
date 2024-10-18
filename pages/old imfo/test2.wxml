@@ -1,0 +1,31 @@
+<view wx:if="{{noLogin}}" class="login_root" >
+    <image class="avatar" src="/tubiao/login_User.png"></image>
+    <button class="name" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar" style="background-color: transparent; border: none; color: #000; font-size: 16px;">点击登入</button>
+</view>
+
+<view wx:else class="login_root" bindchooseavatar="onChooseAvatar">
+  <image class="avatar" src="{{avatarUrl}}"></image>
+    <view class="name">{{nickName}}</view>
+</view>
+<form catchsubmit="formSubmit"></form>
+
+<view class="my_item" bindtap="onButtonClick1">
+  <van-icon name="manager-o" size="30px"/>
+    <text>个人信息</text>
+    <view class="right_arrow">></view>
+</view>
+
+<van-dialog id="van-dialog" />
+
+<view class="my_item" bindtap="onButtonClick2">
+  <van-icon name="envelop-o" size="30px"/>
+    <text>联系我们</text>
+    <view class="right_arrow">></view>
+</view>
+
+
+
+
+
+
+

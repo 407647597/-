@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  height: auto;  /* 让高度根据内容自动调整 */
+}
+
+.slide-image {
+  width: 100%;
+  height: 300px;  /* 固定图片高度 */
+}
+
+.contener2 {
+  position: relative;  /* 确保可以使用绝对定位 */
+  margin-top: 20rpx;  /* 仅在轮播图下方添加一点间距 */
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;  /* 添加间距防止重叠 */
+}
+
+.title {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20rpx;  /* 调整字体大小 */
+  color: gray;  /* 设置为灰色 */
+  cursor: pointer;  /* 鼠标悬停时显示手型 */
+}
+
+.contener1 {
+  width: 100%;
+  margin-bottom: 20rpx;  /* 设置底部间距防止重叠 */
+}
+
+.fui-card__wrap {
+  position: relative;
+  z-index: 2;  /* 提升层级，确保能接收点击事件 */
+}
+
+.fui-list__item {
+  width: 100%;
+  height: 200rpx;  /* 固定图片区域高度 */
+  position: relative;
+  background: #eee;
+}
+
+.fui-cover {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;  /* 等比例缩小 */
+}
+
+.main-title {
+  font-size: 16px;
+  padding: 10px;
+  color: black;  /* 确保字体颜色和背景有对比 */
+  background-color: white;  /* 确保标题有背景色 */
+  text-align: center;  /* 居中文本 */
+}
+
+.sub-title {
+  font-size: 12px;  /* 设置较小的字体 */
+  padding: 5px;  /* 缩小padding */
+  color: gray;  /* 设置小标题的颜色 */
+  text-align: center;  /* 居中文本 */
+}
+
