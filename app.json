@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/jlb/J",
+    "pages/jlb/basketball/basket",
+    "pages/my/my",
+    "components/card-component/card-component",
+    "pages/used to test/text",
+    "pages/activiti/activiti",
+    "pages/jlb/gaoerf/grf",
+    "pages/activiti/more activit/more activit",
+    "pages/activiti/activit info/paiqiu"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "悦心健体",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/jlb/J",
+        "text": "主界面",
+        "iconPath": "/tubiao/仓库.png",
+        "selectedIconPath": "/tubiao/仓库 (1).png"
+      },
+      {
+        "pagePath": "pages/activiti/activiti",
+        "text": "活动",
+        "iconPath": "/tubiao/我的.png",
+        "selectedIconPath": "/tubiao/我的1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/tubiao/我的.png",
+        "selectedIconPath": "/tubiao/我的1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+  
+}
